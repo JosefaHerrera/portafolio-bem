@@ -1,3 +1,51 @@
-@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Khula");
+/*iconos font-awesome*/
+.a-menu {
+  display: inline-block;
+  text-align: center !important;
+  padding: 20px;
+  width: 100%;
+  background-color: #f04949;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0; }
+
+.a-menu__item {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px;
+  color: #efefef;
+  padding-left: 47px; }
+
+.a-menu__item__link {
+  color: #efefef;
+  text-decoration: none;
+  padding: 20px; }
+  .a-menu__item__link:hover {
+    color: #39d084;
+    text-decoration: none;
+    padding: 20px; }
+
+.img-user {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 1px;
+  left: 300px;
+  border: 5px solid white;
+  border-radius: 50%; }
+
+.btn {
+  border-radius: 50px; }
+
+.btn-menu {
+  background-color: #203748; }
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #203748; }
 
 /*# sourceMappingURL=main.css.map */
