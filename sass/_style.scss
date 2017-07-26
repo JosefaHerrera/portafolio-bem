@@ -8,8 +8,6 @@
 	background-color: $rojo;
 	font-family: $font-text-navbar;
 	margin:0;
-
-}
 .a-menu__item{
 	display: inline-block;
 	font-size: 20px;
@@ -17,7 +15,6 @@
 	padding: 5px;
 	color: $blanco;
 	padding-left: 47px;
-
 }
 .a-menu__item__link{
 	color:$blanco;
@@ -29,7 +26,6 @@
 		padding: 20px;
 	}
 }
-
 .img-user{
 	width: 60px;
 	height: 60px;
@@ -39,52 +35,34 @@
 	border: 5px solid white;
 	border-radius: 50%;
 }
-
-.btn{
-    border-radius: 50px;
-}
-
 .btn-menu{
 	background-color: $azul;
+}
+
 }
 
 ////seccion principal
 section{
 	font-family: $text-body;
 	color: $blanco;
-}
-
- .seccion-principal .seccion__principal {
+	.seccion-principal .seccion__principal {
     margin-left: 300px;
     margin-right: 300px;
+    margin-top: 57px;
     a{
 		text-decoration: none;
       }a:hover{
 		color:$rojo;
 		text-decoration: none;
 	}
-}
 .seccion-principal {
   margin-top: -16px;
   padding-top: 40px;
   height: 500px; }
-
-.seccion-principal .seccion__seccion__cotenido--img {
+}.seccion-principal .seccion__seccion__cotenido--img {
     float: left;
     width: 28%;
 }
-
-.social {
-  margin-top: -153px;
-  height: 100px;
-  text-align: center;
-}
-
-.social--img{
-	width: 4%;
-	padding: 14px;
-}
-
 .btn-seccion{
 	background-color: $verde;
 	padding: 8px;
@@ -94,7 +72,30 @@ section{
     padding-top: 14px;
     color: #efefef;
 }
-
 .seccion__principal--title{
 	color: $verde;
+}
+.social {
+  margin-top: 92px;
+  height: 100px;
+  text-align: center;
+  .social--img{
+	width: 4%;
+	padding: 14px;
+	cursor: pointer;
+  }
+}
+.seccion-extra{
+	text-align: center; 
+}
+}
+//footer
+footer {
+  font-family: $font-text-navbar;
+  padding: 10px;
+	.footer--center {
+    color: #efefef;
+    text-align: center; 
+	}
+
 }
