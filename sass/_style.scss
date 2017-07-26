@@ -47,3 +47,54 @@
 .btn-menu{
 	background-color: $azul;
 }
+
+////seccion principal
+section{
+	font-family: $text-body;
+	color: $blanco;
+}
+
+ .seccion-principal .seccion__principal {
+    margin-left: 300px;
+    margin-right: 300px;
+    a{
+		text-decoration: none;
+      }a:hover{
+		color:$rojo;
+		text-decoration: none;
+	}
+}
+.seccion-principal {
+  margin-top: -16px;
+  padding-top: 40px;
+  height: 500px; }
+
+.seccion-principal .seccion__seccion__cotenido--img {
+    float: left;
+    width: 28%;
+}
+
+.social {
+  margin-top: -153px;
+  height: 100px;
+  text-align: center;
+}
+
+.social--img{
+	width: 4%;
+	padding: 14px;
+}
+
+.btn-seccion{
+	background-color: $verde;
+	padding: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    color: #efefef;
+}
+
+.seccion__principal--title{
+	color: $verde;
+}

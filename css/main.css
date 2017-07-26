@@ -42,6 +42,49 @@
 .btn-menu {
   background-color: #203748; }
 
+section {
+  font-family: "Khula", sans-serif;
+  color: #efefef; }
+
+.seccion-principal .seccion__principal {
+  margin-left: 300px;
+  margin-right: 300px; }
+  .seccion-principal .seccion__principal a {
+    text-decoration: none; }
+  .seccion-principal .seccion__principal a:hover {
+    color: #f04949;
+    text-decoration: none; }
+
+.seccion-principal {
+  margin-top: -16px;
+  padding-top: 40px;
+  height: 500px; }
+
+.seccion-principal .seccion__seccion__cotenido--img {
+  float: left;
+  width: 28%; }
+
+.social {
+  margin-top: -153px;
+  height: 100px;
+  text-align: center; }
+
+.social--img {
+  width: 4%;
+  padding: 14px; }
+
+.btn-seccion {
+  background-color: #39d084;
+  padding: 8px;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  color: #efefef; }
+
+.seccion__principal--title {
+  color: #39d084; }
+
 body {
   padding: 0;
   margin: 0;
