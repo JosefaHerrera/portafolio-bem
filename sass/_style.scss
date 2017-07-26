@@ -56,12 +56,14 @@ section{
 		text-decoration: none;
 	}
 .seccion-principal {
+text-aling: center;
   margin-top: -16px;
   padding-top: 40px;
   height: 500px; }
 }.seccion-principal .seccion__seccion__cotenido--img {
     float: left;
-    width: 28%;
+    width: 34%;
+    margin-right: 20px;
 }
 .btn-seccion{
 	background-color: $verde;
@@ -95,7 +97,9 @@ footer {
   padding: 10px;
 	.footer--center {
     color: #efefef;
-    text-align: center; 
+    text-align: center;
+    margin-top: 150px;
+    border-top: 2px solid hotpink;
 	}
 
 }

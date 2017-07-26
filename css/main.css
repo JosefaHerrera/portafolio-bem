@@ -48,12 +48,14 @@ section {
       color: #f04949;
       text-decoration: none; }
     section .seccion-principal .seccion__principal .seccion-principal {
+      text-aling: center;
       margin-top: -16px;
       padding-top: 40px;
       height: 500px; }
   section .seccion-principal .seccion__seccion__cotenido--img {
     float: left;
-    width: 28%; }
+    width: 34%;
+    margin-right: 20px; }
   section .btn-seccion {
     background-color: #39d084;
     padding: 8px;
@@ -80,7 +82,9 @@ footer {
   padding: 10px; }
   footer .footer--center {
     color: #efefef;
-    text-align: center; }
+    text-align: center;
+    margin-top: 150px;
+    border-top: 2px solid hotpink; }
 
 body {
   padding: 0;
